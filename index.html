@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sheela Akshitha — Front-End Developer and Web Developer portfolio">
+  <title>Sheela Akshitha | Web Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">SA<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a class="nav-cta" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">FRONT-END DEVELOPER · WEB DEVELOPER</p>
+        <h1>Hi, I'm <span>Sheela Akshitha.</span></h1>
+        <h2>I build clean, responsive web experiences.</h2>
+        <p class="intro">I enjoy turning ideas into accessible, user-friendly websites with thoughtful layouts and interactive details.</p>
+        <div class="actions"><a class="button primary" href="#projects">Explore projects <span>↗</span></a><a class="button secondary" href="#contact">Get in touch</a></div>
+      </div>
+      <div class="profile-wrap">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+<div class="profile-placeholder">
+    <img
+        src="hero-image.png"
+        alt="Sheela Akshitha"
+        class="profile-photo"
+    >
+</div>        <div class="floating-tag">✦ Always learning</div>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="eyebrow">01 / ABOUT ME</p><h2>Curious by nature.<br><span>Developer by passion.</span></h2>
+      <div class="about-grid"><p>I’m a web developer focused on creating responsive, easy-to-use websites. I care about clear structure, consistent styling, and details that make a website feel polished on every screen.</p><p>I’m looking for opportunities to contribute to a team, strengthen my development skills, and build useful digital experiences. I enjoy learning through hands-on projects and feedback.</p></div>
+    </section>
+
+    <section class="section" id="skills">
+      <p class="eyebrow">02 / TOOLKIT</p><h2>Skills I work with</h2>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon">▤</span><h3>HTML5</h3><p>Semantic page structure</p><div class="meter">
+    <span style="--level: 90%"></span>
+</div></article>
+        <article class="skill-card"><span class="skill-icon">✳</span><h3>CSS3</h3><p>Responsive layouts and styling</p><div class="meter">
+    <span style="--level: 90%"></span>
+</div></article>
+        <article class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Interactive UI behaviour</p><div class="meter">
+    <span style="--level: 90%"></span>
+</div></article>
+        <article class="skill-card"><span class="skill-icon">php</span><h3>Basic PHP</h3><p>Foundational server-side concepts</p><div class="meter">
+    <span style="--level: 50%"></span>
+</div></article>
+<article class="skill-card"><span class="skill-icon">☕</span><h3>Java</h3><p>Basic knowledge of Java, including OOP concepts, syntax, and problem-solving fundamentals.</p><div class="meter">
+    <span style="--level: 80%"></span>
+</div></article>
+<article class="skill-card">
+    <span class="skill-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" width="30">
+    </span>
+    <h3>MySQL</h3>
+    <p>Knowledge of MySQL, including database management, SQL queries, and basic CRUD operations.</p>
+    <div class="meter">
+        <span style="--level: 75%"></span>
+    </div>
+</article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <p class="eyebrow">03 / SELECTED PROJECT IDEAS</p><h2>Things to build next</h2><p class="section-lead">These are suggested portfolio projects, not completed work yet. Build them, then replace the descriptions with your actual results.</p>
+      <div class="projects-grid">
+        
+<article class="project-card">
+    <div class="project-art art-one">
+        <span>01</span>
+        <div class="fresh-start-preview">
+            <img src="fresh-start-logo.svg"
+     alt="Fresh Start Logo"
+     class="fresh-start-logo">
+        </div>
+    </div>
+
+    <div class="project-info">
+        <p class="project-type">HTML · CSS · JAVASCRIPT</p>
+        <h3>Fresh Start</h3>
+        <p>
+            A responsive web platform designed to help individuals,
+            including homemakers and working professionals, discover
+            suitable side-income opportunities based on their interests,
+            skills, and expected earnings. Users can enter their
+            preferences and salary expectations to receive personalized
+            job recommendations. The platform also redirects users to
+            third-party job portals such as Naukri and Indeed to explore
+            and apply for relevant opportunities.
+        </p>
+
+        <a href="https://akshitha-27.github.io/Fresh-Start/"
+           class="text-button details-btn"
+           target="_blank"
+           rel="noopener noreferrer">
+            Project details ↗
+        </a>
+    </div>
+</article>
+
+        <article class="project-card"><div class="project-art art-two"><span>02</span><div class="shop-card"><div class="shop-circle">✦</div><b>Everyday Goods</b><small>Simple. Useful. Beautiful.</small></div></div><div class="project-info"><p class="project-type">HTML · CSS · JAVASCRIPT</p><h3>Product Storefront</h3><p>A clean product listing page with category filters, product cards, and a cart counter.</p><button class="text-button details-btn" data-project="store">Project details ↗</button></div></article>
+        <article class="project-card"><div class="project-art art-three"><span>03</span><div class="task-card"><b>Today's focus</b><p>✓ Plan the week</p><p>○ Finish a project</p><p>○ Review progress</p></div></div><div class="project-info"><p class="project-type">HTML · CSS · JAVASCRIPT</p><h3>Task Planner</h3><p>A small task manager with add, complete, delete, and local session interactions.</p><button class="text-button details-btn" data-project="planner">Project details ↗</button></div></article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <p class="eyebrow">04 / SAY HELLO</p><h2>Let's build something <span>useful.</span></h2><p>Open to Front-End Developer and Web Developer opportunities.</p>
+      <a class="email-link" href="mailto:sheelaakshitha@gmail.com">sheelaakshitha@gmail.com ↗</a>
+      <div class="social-links"><a href="https://github.com/Akshitha-27" target="_blank"
+     rel="noopener noreferrer" aria-label="GitHub profile">GitHub ↗</a><a href="https://www.linkedin.com/in/akshitha-sheela-b892b5257/"
+     aria-label="LinkedIn profile"
+     target="_blank"
+     rel="noopener noreferrer">
+    LinkedIn ↗
+  </a></div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#home">SA<span>.</span></a><p>Designed and built by Sheela Akshitha · <span id="year"></span></p><a href="#home">Back to top ↑</a></footer>
+
+  <dialog id="projectDialog"><button class="dialog-close" id="dialogClose" aria-label="Close">×</button><p class="eyebrow">PROJECT IDEA</p><h2 id="dialogTitle"></h2><p id="dialogText"></p><p class="hint">Build and test this project before presenting it as completed work.</p></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
